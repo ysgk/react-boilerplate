@@ -1,0 +1,15 @@
+{
+  "processors": ["stylelint-processor-styled-components"],
+  "plugins": [
+    "stylelint-order",
+    "stylelint-no-unsupported-browser-features"
+  ],
+  "extends": [
+    "stylelint-config-recommended",
+    "stylelint-config-styled-components"
+  ],
+  "rules": {
+    "color-hex-case": "lower",
+    "color-hex-length": "short"
+  }
+}
